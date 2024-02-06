@@ -1,0 +1,24 @@
+安装依赖：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple moviepy
+
+复制并运行代码：
+
+将上述提供的 Python 代码复制到一个文本编辑器中，保存为一个 .py 文件，例如 merge_video_audio.py。
+
+在命令行/终端中，进入到包含你保存的 .py 文件的文件夹。
+
+运行以下命令：
+
+bash
+Copy code
+python merge_video_audio.py
+如果你的系统使用 Python3，可能需要使用 python3 替代 python：
+
+bash
+Copy code
+python3 merge_video_audio.py
+查看结果：
+
+执行完代码后，会在当前文件夹中生成合并后的视频文件。你可以在同一文件夹中找到输出文件，其文件名以 output_ 开头，后面跟着原始视频文件名。
+请确保在运行代码之前，当前文件夹中有你要处理的视频和音频文件。如果在运行时出现任何问题，请检查错误消息并尝试解决。
+注意大小写，结尾用小写
+merge_video_audio1是备用方案
